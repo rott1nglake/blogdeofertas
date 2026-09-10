@@ -26,6 +26,7 @@ pygmentsUseClasses = true
 [params]
   env = 'production'
   images = ['images/covers/site-default.svg']
+  ShareButtons = ['x', 'reddit', 'whatsapp', 'telegram']
   description = 'Análisis y guías sobre compra de claves digitales de videojuegos: bloqueo regional, mercado gris, tiendas oficiales vs. revendedores y cómo evitar sorpresas al pagar.'
   author = 'Claves de Videojuegos'
   defaultTheme = 'auto'

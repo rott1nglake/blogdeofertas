@@ -3,7 +3,7 @@ title = 'Acerca de'
 date = '2026-09-01T10:00:00-06:00'
 draft = false
 ShowToc = false
-ShowShareButtons = false
+disableShare = true
 ShowReadingTime = false
 +++
 
