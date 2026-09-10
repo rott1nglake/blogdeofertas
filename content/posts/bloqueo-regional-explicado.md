@@ -3,7 +3,7 @@ title = 'Las claves baratas son baratas por algo: bloqueo regional explicado'
 date = '2026-09-03T11:00:00-06:00'
 draft = false
 tags = ['claves', 'bloqueo-regional', 'tiendas']
-summary = 'Cuatro tiendas, cinco juegos, un mismo mensaje al pagar desde México: "no se activa en tu región". Las ofertas más baratas no son casualidad.'
+summary = 'Cinco juegos, cuatro tiendas, un mismo resultado al pagar desde México: no se activa en tu región. Las ofertas más baratas no son casualidad.'
 
 [cover]
   image = 'images/covers/bloqueo-regional.svg'
