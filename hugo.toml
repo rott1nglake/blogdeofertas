@@ -1,0 +1,59 @@
+baseURL = 'https://rott1nglake.github.io/blogdeofertas/'
+languageCode = 'es-es'
+title = 'Claves de Videojuegos: Guías y Análisis de Precios'
+theme = 'PaperMod'
+paginate = 10
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[params]
+  env = 'production'
+  images = ['images/covers/site-default.svg']
+  description = 'Análisis y guías sobre compra de claves digitales de videojuegos: bloqueo regional, mercado gris, tiendas oficiales vs. revendedores y cómo evitar sorpresas al pagar.'
+  author = 'Claves de Videojuegos'
+  defaultTheme = 'auto'
+  disableThemeToggle = false
+  ShowShareButtons = true
+  ShowReadingTime = false
+  displayFullLangName = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  ShowToc = true
+  comments = false
+
+  [params.homeInfoParams]
+    Title = 'Claves de Videojuegos'
+    Content = 'Análisis independiente sobre compra de claves digitales de videojuegos: qué diferencia una clave transferible de un juego atado a tu cuenta, bloqueo regional, mercado gris y cómo evitar pagar de más.'
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Artículos'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'about'
+    name = 'Acerca de'
+    url = '/about/'
+    weight = 20
